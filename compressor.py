@@ -7,5 +7,5 @@ def compress_folder(source_dir, output_file):
     shutil.make_archive(output_file, 'zip', source_dir)
 
 if __name__ == "__main__":
-    compress_folder('data/mal', 'compressed/mal')
-    compress_folder('data/ap', 'compressed/ap')
+    compress_folder('data/mal', 'compressed/MyAnimeList_raw')
+    compress_folder('data/ap', 'compressed/Anime-Planet_raw')
